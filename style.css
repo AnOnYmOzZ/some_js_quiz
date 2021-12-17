@@ -1,0 +1,98 @@
+.first_title{
+    margin: 0 auto;
+    margin-top: 20; 
+    border-bottom: 1px solid lightgrey;
+    /* width: 70%;  */
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.question_box {
+    margin: 0 auto;
+    margin-top: 20; 
+
+    border: 1px solid lightgrey;
+    width: 50%; 
+
+}
+
+.question_sentence{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px 4px;
+}
+
+.question_box .option_box{
+    width: 100%; 
+    padding: 10px 4px;
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+}
+.question_box .option_box ul{
+    list-style-type: none;
+}
+
+
+.question_box .options{
+    margin: 10px auto;
+    text-align: center;
+    width: 90%;
+    padding: 4px 4px; 
+    border: 1px solid lightgrey;
+    border-radius: 30px;
+
+    background-color: white;
+    list-style-type: none;
+}
+
+.question_box .option_box .selected{
+    background-color: rgb(151, 151, 151);
+}
+
+.question_box .option_box .wrong{
+    background-color: rgb(255, 85, 85);
+}
+
+.question_box .option_box .right{
+    background-color: rgb(99, 221, 88);
+}
+
+.question_box .options:hover
+{
+    background-color: lightgrey;
+}
+
+.question_box .options:active
+{
+    background-color: rgb(163, 163, 163);
+}
+
+
+/** Enter button */
+.question_box .enter_btn_div
+{
+    margin: 10px auto;
+    text-align: center;
+}
+
+.question_box .enter_btn
+{
+    /* width: 40%;  */
+    padding: 10px 20px;
+    border-radius: 20px; 
+    border: 1px solid lightgrey;
+}
+
+.question_box .enter_btn:hover
+{
+    background-color:  lightgrey;
+    cursor: pointer;
+}
+
+.question_box .enter_btn:active
+{
+    background-color:  rgb(179, 179, 179);
+    cursor: pointer;
+}
